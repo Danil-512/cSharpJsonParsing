@@ -1,0 +1,44 @@
+﻿<Window x:Name="Wind"
+        x:Class="jsonParsing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jsonParsing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800" SizeChanged="Wind_SizeChanged">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="anotherFileButton" Content="Выбрать другой файл" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="1" Grid.ColumnSpan="5" Click="anotherFileButton_Click" Margin="0,0,0,0"/>
+
+        <ScrollViewer x:Name="ALL1" Grid.Row="1" Grid.RowSpan="7" Grid.Column="0" Grid.ColumnSpan="7" >
+            <WrapPanel x:Name="WR1">
+
+            </WrapPanel>
+
+
+        </ScrollViewer>
+        <Button x:Name="saveFileButton" Content="Сохранить ответы" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="5" Click="saveFileButton_Click" Margin="0,0,0,0"/>
+
+    </Grid>
+</Window>

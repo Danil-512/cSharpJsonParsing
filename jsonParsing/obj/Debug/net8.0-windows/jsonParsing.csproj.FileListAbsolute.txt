@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\jsonParsing\jsonParsing\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\jsonParsing\jsonParsing\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\User\Desktop\jsonParsing\jsonParsing\obj\Debug\net8.0-windows\jsonParsing_MarkupCompile.cache
+C:\Users\User\Desktop\jsonParsing\jsonParsing\obj\Debug\net8.0-windows\jsonParsing_MarkupCompile.lref

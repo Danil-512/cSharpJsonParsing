@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PRaYfJaqWwc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deaan\\Desktop\\jsonParsing\\jsonParsing\\jsonParsing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deaan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
